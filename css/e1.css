@@ -1,0 +1,1187 @@
+.h-header {
+	background:#fff
+}
+
+.header-down {
+	min-height:89px
+}
+.logo {
+	left:50%;
+	margin-left:-470px;
+	top:50px
+}
+
+.main-menu {
+	margin-top:29px;
+	padding-left:200px
+}
+.main-menu li {
+	margin-bottom:10px;
+	margin-right:30px;
+}
+
+.main-menu .mm-3 {
+	margin-right:30px;
+}
+
+.header>font {
+	display:block;
+	float:right;
+	padding-right:160px;
+}
+.header-up .phone {
+	padding-right:50px;
+}
+
+.list-duration {
+	color:#777;	
+	font-size:14px;
+}
+.list-price{
+/*display: inline-block;*/
+display: block;
+margin-top: 5px;
+margin-bottom: 7px;
+background: #ed6245;
+padding: 6px 10px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+font-size: 16px;
+color: #ffffff;
+position: relative;
+line-height: 18px;
+text-align: center;
+font-weight: 500;
+}
+#second-page .content h6 {
+	font-weight:400;
+}
+
+.new-task__price {
+	font-size:24px;
+}
+
+.phone {
+	padding-left:35px;
+	background:url(/images/phone.png) no-repeat;
+}
+
+#second-page table:not(.ui-datepicker-calendar) {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#second-page table:not(.ui-datepicker-calendar) tr td {
+	border-bottom:1px solid #f5f5f5;
+}
+#second-page table:not(.ui-datepicker-calendar) tr:nth-child(2n+1) td {
+	background:#f4f4f4;
+	border-bottom:1px solid #ddd;
+}
+
+#second-page table:not(.ui-datepicker-calendar) td {
+	padding:8px;
+	min-width:auto;
+}
+#second-page .content p {
+	line-height:140%;
+	font-size:16px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+#second-page table p{
+	padding:3px 0px !important;
+	margin:0px;
+
+}
+
+#second-page .content p {
+	color:#222;
+}
+
+.new-task__ul-item--text {
+	font-size:16px !important;
+}
+.order-data__price {
+	/*font-size:30px;*/
+	display: block;
+	font-size: 17px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.order-data__price strong {
+	font-size: 21px;
+	color: #139fdc;
+}
+
+
+.doc-blocks {
+	position:relative;
+	margin-bottom:-15px;
+}
+
+.doc-blocks a{
+             	display:inline-block;
+		padding-left:30px;
+		background:url(/images/doc.png) no-repeat;	
+		font-family:'Roboto';
+		font-weight:400
+}
+.content-right .one-exinfo{
+	width:100%;
+	text-align:center;
+}
+
+.toptop-menu{
+margin:0px;
+padding:0px;}
+.toptop-menu li {
+margin:0px 20px 0 0;
+padding:0px;
+float:left;
+
+}
+
+.toptop-menu li.active a {
+	font-weight:bold;
+}
+.toptop-menu li ul {
+display: none;
+position: absolute;
+z-index:500;
+margin-top:-6px;
+left: 0;
+top: 25px;
+background: #139fdc;
+margin-left: -20px;
+padding: 20px 20px 5px 20px;
+}
+.toptop-menu li ul li {
+margin-bottom:5px;
+white-space:nowrap
+}
+.toptop-menu li ul li a 
+
+{
+font-size:14px;
+font-weight:normal !important
+}
+
+.toptop-menu li:hover ul {
+	display:block
+}
+.toptop-menu li {
+	position:relative
+}
+
+.toptop-menu li.active ul {
+}
+
+.submenucontainer {
+	padding:20px 0px;
+	background: url("/images/big-brouther-line.png") left 100% repeat-x;
+}
+.data {
+	width:940px;
+	margin:0 auto;
+}
+.clear {
+	clear:both
+}
+
+.submenu {
+	margin:0px;padding:0px;list-style-type:none
+}
+.submenu li{
+	float:left; margin-right:20px;
+}
+
+.submenu li a {
+	text-decoration:none;
+	font-size:17px;color:#ea5030;
+}
+.submenu li.active a{
+	font-weight:bold;
+}
+
+
+.content-left {
+	min-height:500px;
+}
+
+.sticky .h-header {
+	width:100%;
+	top:0px;
+	position:fixed;
+	z-index:2000;
+     -webkit-transition: ease-out 0.2s;
+     -moz-transition:  ease-out 0.2s;
+     -o-transition:  ease-out 0.2s;
+     transition:  ease-out 0.2s;
+}
+.sticky .logo img {
+	width:  87px;
+	height:56px;
+     -webkit-transition: ease-out 0.2s;
+     -moz-transition:  ease-out 0.2s;
+     -o-transition:  ease-out 0.2s;
+     transition:  ease-out 0.2s;
+	
+}
+.sticky .main-menu{
+     -webkit-transition: ease-out 0.2s;
+     -moz-transition:  ease-out 0.2s;
+     -o-transition:  ease-out 0.2s;
+     transition:  ease-out 0.2s;
+	padding-left:110px;
+}
+.sticky .header-down {
+	background: url("/images/big-brouther-line.png") left 100% repeat-x;
+	min-height:50px;
+	height:50px;
+     -webkit-transition: ease-out 0.2s;
+     -moz-transition:  ease-out 0.2s;
+     -o-transition:  ease-out 0.2s;
+     transition:  ease-out 0.2s;
+}
+
+.sticky .main-menu li a {
+     -webkit-transition: ease-out 0.2s;
+     -moz-transition:  ease-out 0.2s;
+     -o-transition:  ease-out 0.2s;
+     transition:  ease-out 0.2s;
+	font-size:15px;
+	font-weight:bold;
+}
+.sticky .main-menu li:last-child {
+margin-right:0px
+                                }
+
+
+.sticky .wrapper {
+	margin-top:170px;
+}
+.js-scrolling-block-for-inner-pages--fixed,.js-insurance-form_fixed {
+	top:160px;
+	background: #c1eb8a;
+	box-sizing: border-box;
+	width: 282px;
+	padding: 20px;
+-webkit-transition: 0.2s;
+-moz-transition: 0.2s;
+-ms-transition: 0.2s;
+-o-transition: 0.2s;
+transition: 0.2s;
+}
+
+.js-scrolling-block-for-inner-pages--fixed h4, .js-insurance-form_fixed h4{
+	color:#000 !important;
+}
+.js-scrolling-block-for-inner-pages--fixed .orange-button, .js-insurance-form_fixed .orange-button{
+	background: #e74c16 url("/images/orange-green.png") right center no-repeat !important;
+}
+
+
+.bigslider {
+	height:500px !important;;
+	width:100%;
+	position:relative;
+}
+.bigslider .flex-prev {
+	z-index:800;
+	display:block;
+	position:absolute;
+	top:145px;
+	width:50px;
+	height:190px;
+	left:50%;
+	margin-left:-600px;
+	background:url(/images/arr-left.png) no-repeat
+}
+.bigslider .flex-next {
+	z-index:800;
+	display:block;
+	position:absolute;
+	top:145px;
+	width:50px;
+	height:190px;
+	left:50%;
+	margin-left:550px;
+	background:url(/images/arr-right.png) no-repeat
+}
+.bigslider .slides {
+	height:500px;
+	overflow:hidden;
+}
+
+.bigslider .slide {
+	height:500px;
+	overflow:hidden;
+}
+.slide .wave-up{
+	position:absolute;
+	top:0px;
+	background:url(/images/wave-up.png) repeat-x;
+	height:5px;
+	width:100%;
+}
+.slide .wave-down{
+	z-index:100;
+	position:absolute;
+	bottom:0px;
+	background:url(/images/wave-down.png) repeat-x;
+	height:5px;
+	width:100%;
+}
+.slide .shade{
+	width:100%;
+	position:absolute;
+	top:0px;
+	height:500px;
+	background:url(/images/slide-back.png) 50% 100% repeat-x;
+}
+.slide .infocontainer {
+	left:50%;
+	margin-left:-470px;
+	position:absolute;
+	z-index:200;
+	display:block;
+	width:960px;
+	padding-top:265px;
+}
+.slide .infocontainer .preview{
+	font-weight:200;
+	color:White;
+	font-size:18px;	
+	margin-bottom:5px;
+}
+.slide .infocontainer .name{
+	font-weight:200;
+	color:White;
+	font-size:48px;	
+	margin-bottom:25px;
+}
+.slide .infocontainer .price{
+	font-weight:200;
+	color:White;
+	font-size:24px;	
+	padding:10px;
+	background:url(/images/bigprice.png) no-repeat;
+}
+body .bigslider .slides li {
+	margin:0px !important;
+}
+
+
+.list-price, .new-task__price, .slide .infocontainer .price, .order-data__price {
+/*	display:none !important; */
+}
+.header-up .phone {
+/*	padding-right:160px; */
+}
+.header > font {
+/*	display:none; */
+}
+
+.img-resp {
+	max-width: 100%;
+}
+
+
+/*карточка алт.тура в списке*/
+
+.tour-list-params {
+    display: block;
+    color: #777;
+    margin-top: 0 !important;
+    margin-bottom: 20px !important;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    height: 100%;
+    background-color: #f2f2f2;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 5px 20px;
+    width: auto !important;
+}
+		.tour-detail-info__table .tour-list-params {
+			background-color: transparent;
+		}
+
+			.tour-detail-info .content table.tour-list-params td,
+			.tour-detail-info .content table.tour-list-params .list-duration {
+				font-size: 19px !important;
+			}
+				.tour-detail-info .content table.tour-list-params tr td:nth-child(2) {
+					font-weight: bold !important;
+			}
+			
+
+	.tour-card-params__difficulty {
+		overflow: auto;
+	}
+	.tour-card-params__people {
+		color: #777;
+	}
+	.tour-card-params__duration {}
+	.tour-card-params__types {
+		overflow: auto;
+		padding-bottom: 0 !important;
+		margin-bottom: 10px;
+	}
+
+	.tour-list-params tr td {
+		background-color: transparent !important;
+		line-height: 100% !important;
+		border: none !important;
+	}
+
+	.tour-list-params td:first-child {
+		font-weight: bold;
+	}
+
+	.tour-list-params p {
+		padding-top: 0;
+	}
+
+#second-page .card-tour-desc {
+	padding-top: 0;
+	font-style: italic;
+	margin-bottom: 10px;
+	color: #777;
+	font-size: 15px !important;
+}
+
+.btn-card-more {
+	position: relative;
+
+	margin-left: 48px;
+	padding: 5px 10px;
+
+	border: 1px solid;	
+}
+
+
+li.tour-type {
+	display: inline-block;
+	float: left;
+	width: 24%;
+	/*margin-right: 1%;*/
+	margin: 0 0 5px 0;
+	padding: 0 !important;
+	text-align: center;
+	line-height: 100% !important;
+	background: none !important;
+}
+	.tour-type__icon {}
+	.tour-type__distance {
+		color: #777;
+	}
+	
+	li.tour-type img {
+		width: 40px;
+		height: 40px;
+		margin: 0 auto;
+		opacity: .5;
+	}	
+
+.difficulty-dot{
+	float: left;
+
+	width: 8px;
+	height: 8px;
+
+	margin-right: 5px;
+
+	border-radius: 50%;
+
+
+	border: 1px solid #139FDC;;
+	opacity: .8;
+}	
+		.tour-detail-info .content table.tour-list-params .difficulty-dot {
+				width: 12px !important;
+				height: 12px !important;
+			}
+	.difficulty-dot_active {
+		background-color: #139FDC;
+	}
+
+.tour-img {
+	position: relative;
+
+    width: auto;
+    height: 160px;
+    margin: -15px -15px 20px -15px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+		.tour-img:after {
+			position: absolute;
+			display: table;
+			content: '';
+
+			left: 0;
+			top: 0;
+
+			width: 100%;
+			height: 100%;
+
+			z-index: 2;
+
+			background: rgba(0,0,0,.3);
+			transition: 300ms;
+			/*display: none;*/
+			opacity: 0;
+		}
+		.tour-img:before {
+			    position: absolute;
+			    display: flex;
+			    content: 'смотреть тур';
+
+			    flex-flow: row nowrap;
+			    align-items: center;
+			    justify-content: center;
+
+			    left: 0;
+			    right: 0;
+			    top: 10%;
+
+			    margin: 0 auto;
+
+			    width: 130px;
+			    height: 130px;
+			    z-index: 3;
+
+			    background: transparent;
+			    border: 1px solid #fff;
+			    color: #fff;
+			    font-size: 13px;
+			    text-transform: uppercase;
+			    font-weight: 200;
+			    transition: 300ms;
+			    opacity: 0;
+			    transform: translateY(-5px);
+			    
+			    
+			    border-radius: 50%;
+			    background-color: rgba(255,255,255,.1);
+			    box-shadow: 0 3px 17px rgba(0,0,0,.6);
+		}
+
+
+/*карточка алт.тура detail*/
+
+.tour-detail-info {
+	background-color: #ebebeb;
+}
+	.tour-detail-info .content {
+		    padding-bottom: 24px;
+    display: flex;
+    flex-flow: row nowrap;
+	}
+.tour-detail-info__table {
+	margin-right: 15px;
+    flex: 1 1 50%;
+}
+.tour-detail-info__price {
+	flex: 1 1 50%;
+}
+.tour-detail-info__price .order-data {}
+
+.action-block {
+    display: flex;
+    flex-flow: column nowrap;
+}
+.action-block__price {
+    padding: 20px 20px;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+}
+.action-block__book {}
+#second-page .content .action-block__book a {
+    width: 100%;
+    background: #e74c16 !important;
+    padding: 15px 0 !important;
+    margin: 0 !important;
+    color: #fff;
+}
+
+/*фотографии тура detail*/
+.tour-photos {
+	overflow: auto;
+	margin-bottom: 30px;
+}
+.tour-photos__photo-full {
+	width: 100%;
+	float: left;
+	margin-bottom: 14px;
+	height: 400px;
+
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+	.tour-photos__photo-full_short {
+		height: 280px;
+	}
+	.tour-photos__photo-full img {
+		width: 100%;
+		height: auto;
+	}
+.tour-photos__thubnails {
+	width: 100%;
+	float: left;
+	overflow: auto;
+}
+	.tour-photos__thubnails img {
+		width: 32%;
+		margin-right: 1%;
+		height: auto;
+	}
+
+
+/*день тура*/
+.tour-day {
+	overflow: auto;
+    padding: 35px;
+    /*border: 1px solid #ebebeb;*/
+    margin-bottom: 30px;
+    box-shadow: 0 0 7px rgba(0,0,0,.2);
+    transition: 200ms;
+}
+			/*.tour-day:hover {box-shadow: 0 0 34px rgba(0,0,0,.2);}*/
+.tour-day__heading {
+	border-bottom: 1px solid #ebebeb;
+    /*margin-bottom: 15px;*/
+    padding-bottom: 35px;
+
+}
+.tour-day__left-col {
+    width: 18%;
+    margin-top: 15px;
+    margin-right: 1%;
+    float: left;
+    padding: 15px 10px 0 0;
+}
+	.tour-day__left-col li.tour-type {
+		padding: 0 !important;
+		background: none !important;
+		display: block;
+		width: 100%;
+		overflow: auto;
+	}
+
+	.tour-day__left-col li.tour-type .tour-type__icon {
+		display: inline-block;
+		width: 40px;
+		margin-right: 8px;
+		/*height: 40px;*/
+		float: left;
+	}
+
+	.tour-day__left-col li.tour-type .tour-type__distance {
+		display: block;
+		width: 99%;
+		margin-right: 1%;
+		text-align: left;
+		line-height: 44px !important;
+	}
+
+	.tour-day__left-col li.tour-type img {
+		padding-bottom: 0 !important;
+	}
+
+/*.tour-day__right-col .tour-day {
+	margin-bottom: 0;
+}*/
+
+.tour-day__right-col {
+	width: 78.8%;
+	margin-top: 25px;
+	float: left;
+	padding-left: 1%;
+}
+.thumbnail-photo {
+	float: left;
+	width: 23.5%;
+	margin-right: 2%;
+	height: 150px;
+	
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+	.thumbnail-photo:nth-child(4) {
+		margin-right: 0;
+	}
+
+/*что включено*/
+
+.what-included {
+	min-height: 400px;
+	display: flex;
+	flex-flow: row nowrap;
+	box-sizing: border-box;
+}
+.what-included__video {
+	flex: 1 1 40%;
+	padding: 15px;	
+}
+.what-included__contents {
+	flex: 1 1 40%;
+	padding: 15px;
+}
+
+.horizontal-lead {
+	padding: 40px 0;
+	background-color: #ebebeb;
+	margin: 30px 0;
+}
+#second-page .horizontal-lead .content {padding-top: 0;}
+
+.take-it {
+	margin-bottom: 34px;
+}
+
+
+/*КАЛЕНДАРЬ
+======================*/
+#tour-calendar-wrapper {
+	position: relative;
+}
+#tour-calendar-wrapper .ui-widget-content {
+	box-shadow: 0 0 8px rgba(0,0,0,.2);
+	border: none;
+}
+
+#tour-calendar-wrapper .ui-datepicker .ui-datepicker-header {
+	padding: 15px 0;
+}
+
+#tour-calendar-wrapper .ui-datepicker {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#tour-calendar-wrapper .ui-datepicker .ui-datepicker-prev, 
+#tour-calendar-wrapper .ui-datepicker .ui-datepicker-next 	{ top: 20px; cursor: pointer;}
+
+#tour-calendar-wrapper .ui-datepicker .ui-datepicker-title  { margin: 10px 10px; }
+
+#tour-calendar-wrapper #second-page .ui-datepicker th, 
+#second-page #tour-calendar-wrapper .ui-datepicker td { 
+	/*padding: 10px 0 !important; */
+	color: #777; 
+	font-size: 16px;
+}
+
+#tour-calendar-wrapper .ui-datepicker td a { 
+    background: #eaeaea;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ebebeb;
+    font-size: 14px;
+    color: #777;
+    opacity: .7;
+    font-weight: 400 !important;
+}
+	#tour-calendar-wrapper .ui-datepicker td a:hover {text-decoration: none; opacity: 1;}
+
+#tour-calendar-wrapper .ui-state-active, 
+#tour-calendar-wrapper .ui-widget-content .ui-state-active, 
+#tour-calendar-wrapper .ui-widget-header .ui-state-active {
+	background-color: #139fdc !important;
+	color: #fff !important;
+}
+
+#tour-calendar-wrapper .ui-state-highlight, 
+#tour-calendar-wrapper .ui-widget-content 
+#tour-calendar-wrapper .ui-state-highlight, 
+#tour-calendar-wrapper .ui-widget-header .ui-state-highlight {
+	border: none;
+}
+
+/*СЛАЙДЕР КАЛЕНДАРЕЙ
+==============================*/
+.swiper-wrapper {padding: 2px 2px;}
+.swiper-slide {
+	/*padding: 4px;*/
+}
+
+#tour-calendar-wrapper .ui-datepicker-prev, 
+#tour-calendar-wrapper .ui-datepicker-next {
+	display: none;
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-prev { left: -70px; }
+.swiper-button-next, .swiper-container-rtl .swiper-button-next { right: -70px; }
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-prev,
+.swiper-button-next, .swiper-container-rtl .swiper-button-next { 
+	background-color: #fff;
+	width: 55px;
+	height: 55px;
+	border-radius: 50%; 
+	background-size: 20px;
+	/*border: 2px solid lightgray;*/
+	transition: 300ms;
+}
+		.swiper-button-prev:hover, .swiper-container-rtl .swiper-button-prev:hover,
+		.swiper-button-next:hover, .swiper-container-rtl .swiper-button-next:hover { 
+			/*box-shadow: 0 3px 15px 1px rgba(0,0,0,.2);*/
+			transform: scale(1.1);
+			/*background-color: #139fdc;*/
+		}
+
+/*МОДАЛЬНЫЕ ОКНА
+===================*/
+.modal {
+  background: #FFF;
+  border: 0;
+  z-index: 999;
+  position: fixed;
+  display: none;
+  top: 170px;
+  left: 50%;
+  border-radius: .4rem; }
+
+.modal .modal-content {
+	position: relative;
+  padding: 20px;
+  padding: 40px 20px 0 20px;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff; }
+
+.modal .modal-content h2 {
+  color: #000;
+  text-align: center;
+  margin: 0 15px 25px 15px; }
+
+.modal .modal-content input[type="text"],
+.modal .modal-content textarea {
+  font-family: 'DIN-Pro', sans-serif;
+  font-weight: normal;
+  background-color: #eaeaea;
+  font-size: 16px;
+  border: 1px solid transparent;
+  -webkit-transition: all 300ms;
+  transition: all 300ms; }
+
+.modal .modal-content input[type="text"]:hover,
+.modal .modal-content textarea:hover {
+  border: 1px solid lightgray;
+  background-color: transparent; }
+
+.modal .modal-content input[type="text"]:focus,
+.modal .modal-content textarea:focus {
+  outline: none;
+  background-color: #fff; }
+
+.modal .modal-close {
+	z-index: 3;
+  position: absolute;
+  right: -12px;
+  top: -12px;
+  text-decoration: none;
+  width: 24px;
+  height: 24px;
+  background: #fff url("/images/icons/icon-close-mobile-menu.png") no-repeat scroll center center;
+  -webkit-background-size: contain;
+  background-size: contain;
+  border-radius: 50%;
+  border: 8px solid #fff;
+  -webkit-box-shadow: 0 1px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 300ms;
+  transition: all 300ms; }
+  .modal .modal-close:hover {
+    -webkit-box-shadow: 0 1px 25px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 25px rgba(0, 0, 0, 0.5);
+    -webkit-transform: translateY(-2px) rotate(90deg);
+    transform: translateY(-2px) rotate(90deg); }
+
+.modal label {
+  margin-bottom: 5px; }
+
+.modal form input, .modal form textarea, .modal form label.upload {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  margin-top: 3px;
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 8px 10px;
+  font-family: 'DIN-Pro', sans-serif; }
+
+.modal .spinner {
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+  background: url("/img/spinner.gif") no-repeat scroll center center rgba(0, 0, 0, 0.3); }
+
+.modal .button {
+  padding: 10px;
+  margin: 0 auto;
+  border: 0px;
+  cursor: pointer; }
+
+.modal .button:hover {
+  background: darkred; }
+
+.modal, #callback-window {
+  width: 600px;
+  margin-left: -300px;
+  background-color: #fff; }
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 990; }
+
+.modal .caption {
+  margin-bottom: 20px;
+  padding-top: 0px !important; }
+
+.modal-errors {
+  margin-top: 20px;
+  display: none;
+  background: #cc2516;
+  color: white;
+  font-weight: bold;
+  padding: 10px; }
+
+.modal-result {
+  margin-top: 20px;
+  display: none;
+  background: #f0f0f0;
+  color: #505050;
+  font-weight: bold;
+  padding: 10px; }
+
+.modal, #callback-window {
+  /*width: auto; */
+  width: 450px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin-left: 0; }
+
+@media screen and (max-width: 480px) {
+  .modal, #callback-window {
+    width: 300px; } }
+
+.modal .modal-controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.modal .modal-controls button {
+  outline: none;
+  border: none;
+  cursor: pointer; }
+
+/*elements*/
+/*кнопка в модальном окне*/
+.modal-controls__btn {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 10px;
+  margin: 2px;
+  text-decoration: none;
+  border: none;
+  font-family: 'MyriadPro SemiBold Italic', sans-serif;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  text-align: center;
+  cursor: pointer; }
+
+/*modificators*/
+/*кнока перейти к заказу*/
+.modal-controls__btn_order {
+  color: #fff;
+  background: #b8d900;
+  background: -webkit-gradient(left top, right top, color-stop(0%, #b8d900), color-stop(100%, #4ab033));
+  background: -webkit-gradient(linear, left top, right top, from(#b8d900), to(#4ab033));
+  background: linear-gradient(to right, #b8d900 0%, #4ab033 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8d900', endColorstr='#4ab033', GradientType=1 ); }
+
+/*кнопка продолжить покупки	*/
+.modal-controls__btn_continue {
+  background-color: transparent;
+  border: 1px solid #4ab033;
+  color: #4ab033; }
+
+/*states*/
+/*эффекты блока/элементов*/
+.modal-controls__btn_order:hover {
+  background: #4ab033; }
+
+.modal-controls__btn_continue:hover {
+  background: #4ab033;
+  color: #fff; }
+
+.modal-controls__btn:focus {
+  outline: none; }
+
+.modal-content__date {
+    position: absolute;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    top: -31px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    height: 60px;
+    background-color: #139fdc;
+    border: 2px solid #fff;
+    border-radius: 44px;
+    color: #fff;
+    box-shadow: 0 0 15px 1px rgba(0,0,0,.3);
+    font-size: 16px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.modal-content__tours-list {}
+
+.modal-tour {
+	display: block;
+    padding: 20px 20px 20px 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    /*border-bottom: 3px solid lightgray;*/
+    background-color: #f7f7f7;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 300ms;
+    opacity: .85;
+}
+		.modal-tour:hover {
+			opacity: 1;
+		}
+		/*.modal-tour:hover h3 {
+			background: #8fd5f2;
+		}*/
+
+		/*.modal-tour:hover .btn_size-s {
+			color: #ed6245;
+		}
+		.modal-tour:hover .btn_size-s::before,
+		.modal-tour:hover .btn_size-s::after {
+			background-color: #ed6245;
+		}*/
+		/*.modal-tour:hover h3::after 	{ transform: translateX(40px); }*/
+		/*.modal-tour:hover h3::before 	{ transform: translateX(-40px); }*/
+.modal-tour h3 {
+	position: relative;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    padding: 10px;
+    color: #ffffff;
+    /*background: #009ee0;*/
+    /*background: #8fd5f2;*/
+    background: #4da1dd;
+    border: center;
+    text-align: center;
+    margin-left: -20px;
+    margin-right: -20px;
+    transition: 300ms;
+}
+	.modal-tour h3::after,
+	.modal-tour h3::before {
+		position: absolute;
+	    content: '';
+	    top: 50%;
+	    transform: translateY(-50%);
+	    width: 5px;
+	    height: 5px;
+	    border-radius: 50%;
+	    background-color: #fff;
+	    transition: 300ms;
+	}
+		.modal-tour h3::after 	{ left: 20px; }
+		.modal-tour h3::before 	{ right: 20px; }
+
+	.modal-tour .tour-list-params {
+		background-color: transparent;
+		margin-right: -15px;
+    	margin-left: -15px;
+    	padding: 5px 40px;
+    	border: 0;
+	}
+
+.modal-tour .btn_size-s {
+	position: relative;
+	padding: 0 30px;
+    display: inline-block;
+    font-weight: 300;
+    letter-spacing: .7px;
+    /*color: #ed6245;*/
+    color: #ed6245;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    padding: 0px;
+    width: 100%;
+    margin: 0 auto;
+    border: 0;
+}
+	/*.modal-tour .btn_size-s::after,
+	.modal-tour .btn_size-s::before {
+		position: absolute;
+	    content: '';
+	    top: 50%;
+	    transform: translateY(-50%);
+	    width: 25px;
+	    height: 5px;
+	    background-color: gray;
+	}
+	.modal-tour .btn_size-s::after	{ left: 20%; }
+	.modal-tour .btn_size-s::before	{ right: 20%; }*/
+
+.btn_size-s {
+	padding: 0 25px;
+    display: inline-block;
+    margin-top: 5px;
+    opacity: .8;
+    font-weight: 300;
+    letter-spacing: .7px;
+    color: #ed6245;
+    border: 1px solid #ed6245;
+}

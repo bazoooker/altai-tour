@@ -1,0 +1,120 @@
+
+.flexslider {padding-top: 90px; width: 100%; margin: 0; padding: 0; height: 444px; overflow: hidden;}
+body .flexslider .slides li {display: none; margin-left: 0px !important; }
+#main-page .flexslider .slides img {width: 1600px; display: block; margin: 0 auto; position: absolute; left: 50%; margin-left: -800px;}
+
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider {position: relative; -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;}
+.flexslider .slides  li {position: relative;margin: 0 -60px}
+/* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
+.flexslider-container {position: relative;}
+
+/* Caption style */
+.flex-caption {width: 96%; padding: 2%; position: absolute; left: 0; bottom: 0; background: rgba(0,0,0,.3); color: #fff; text-shadow: 0 -1px 0 rgba(0,0,0,.3); font-size: 14px; line-height: 18px;}
+.flex-direction-nav{
+}
+.flex-control-nav{
+    display: none;
+}
+/* Direction Nav */
+.flex-direction-nav li a {width: 28px;
+
+    cursor: pointer;
+}
+    /* set negative margin-top equal to half the height on the directional-nav for perfect vertical centering */
+.flex-direction-nav li a.next, .flex-next {
+
+}
+.flex-direction-nav li a.prev, .flex-prev {
+
+
+}
+
+/* Control Nav */
+.flex-control-nav {margin-left: -31px; position: absolute; bottom: -30px; left: 50%;} /* set negative margin-left equal to half the width on the control-nav for perfect centering */
+.flex-control-nav li {margin: 0 0 0 5px; float: left;}
+.flex-control-nav li:first-child {margin: 0;}
+.flex-control-nav li a {width: 13px; height: 13px; display: block; background: url(../img/bg_control_nav.png) no-repeat 0 0; cursor: pointer; text-indent: -9999px;}
+.flex-control-nav li a:hover {background-position: 0 -13px;}
+.flex-control-nav li a.active {background-position: 0 -26px; cursor: default;}
+
+
+/*СЛАЙДЕР ТУРОВ
+==========================*/
+
+
+#calendar-slider .flexslider{
+  position: relative;
+  width: 800px;
+  margin: 20px auto 0;
+  border: 10px solid orange;  
+}
+
+/*  PAGINATION  */
+#calendar-slider .flexslider .flex-control-nav{
+position: relative;
+z-index: 3;
+padding: 5px 0;
+margin-top: -30px;
+}
+#calendar-slider .flexslider .flex-control-nav li{
+  float: left;
+  margin-left: 10px;
+}
+#calendar-slider .flexslider .flex-control-nav li a{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    cursor: pointer;
+}
+#calendar-slider .flexslider .flex-control-nav li a.flex-active{
+  background-color: blue;
+  cursor: default;
+}
+#calendar-slider .flexslider .flex-control-nav li a:hover,
+#calendar-slider .flexslider .flex-control-nav li a:focus{
+  background-color: red;
+}
+  
+
+  /*  ARROWS  */
+#calendar-slider .flex-direction-nav{}
+#calendar-slider .flex-direction-nav.flex-prev,
+#calendar-slider .flex-direction-nav.flex-next{
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-color: lighten($color,5%);
+	border: 2px solid darken($color,10%);
+}
+#calendar-slider .flex-direction-nav.flex-prev:hover,
+#calendar-slider .flex-direction-nav.flex-prev:focus,
+#calendar-slider .flex-direction-nav.flex-next:hover,
+#calendar-slider .flex-direction-nav.flex-next:focus {
+	outline: none;
+	background-color: khaki;
+}
+#calendar-slider .flex-prev{
+  left: 10px;
+}
+#calendar-slider .flex-next{
+  right: 10px;
+}
+  /*  IMAGES  */
+/*  .flex-viewport{
+    li{
+      img{
+        vertical-align: top;
+        position: relative;
+        z-index: -2;
+      }
+      }
+    }
+  }*/
+
